@@ -1,7 +1,7 @@
 body {
 	background-color: #fff;
 	overflow-x: hidden;
-	font-size: 16px;
+	font-size: 12px;
 }
 * {
 	box-sizing: border-box;
@@ -32,11 +32,11 @@ body {
 	font-size: 1.5em;
 }
 h1 {
-	font-size: 2.5em;
+	font-size: 3em;
 }
 h2 {
-	font-size: 2em;
-	margin: 20px 0 12px;
+	font-size: 2.5em;
+	margin: 10px 0 5px;
 	font-weight: 600;
 }
 .right {
@@ -53,9 +53,9 @@ h2 {
 	width: 30%;
 	max-width: 200px;
 	height: auto;
-	position: absolute;
-	top: 0;
-	right: 10px;
+	/*position: absolute;*/
+	/*top: 0;
+	right: 10px;*/
 }
 .avatar img {
 	width: 100%;
@@ -89,7 +89,7 @@ h2 {
 }
 
 .work > li {
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 
 .work .title {
@@ -110,7 +110,7 @@ h2 {
 	font-style: italic;
 	display: inline-block;
 	margin: 0;
-	margin-top: 5px;
+	margin-top: 3px;
 	line-height: 1.2;
 }
 
@@ -143,12 +143,12 @@ h2 {
 
 .downloadContainer {
 	position: fixed;
-	right: 10px;
+	right: 20px;
 	bottom: 80px;
 }
 
 .downloadContainer .download {
-	padding: 5px;
+	padding: 8px 5px;
 	font-size: 2em;
 	width: 50px;
 	height: 50px;
@@ -202,7 +202,7 @@ h2 {
 
 .upToTop {
 	position: fixed;
-	right: 10px;
+	right: 20px;
 	bottom: 20px;
 }
 
@@ -220,11 +220,14 @@ h2 {
 	h2 {
 		font-size: 1.5em;
 	}
-	.contacts {
+	.contacts, .work {
+		padding: 5px;
+	}
+	.contacts li, .work li {
 		padding: 5px;
 	}
 	.work > li {
-		margin-bottom: 5px;
+		margin-bottom: 0px;
 	}
 	.work .title {
 		margin-top: 5px;
@@ -232,6 +235,13 @@ h2 {
 	}
 	.contacts li label {
 		display: none;
+	}
+	.downloadContainer, .upToTop {
+		right: 15px;
+	}
+	.downloadContainer .download, .up {
+		width: 40px;
+		height: 40px;
 	}
 }
 
