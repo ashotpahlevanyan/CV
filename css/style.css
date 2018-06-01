@@ -227,6 +227,10 @@ h2 {
 	.contacts li, .work li {
 		padding: 5px;
 	}
+	.contacts li i {
+		width: 20px;
+		margin-right: 3px;
+	}
 	.work > li {
 		margin-bottom: 0px;
 	}
