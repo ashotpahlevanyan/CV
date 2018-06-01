@@ -32,7 +32,7 @@
 			}
 		}
 
-		let download = document.querySelector('.download');
+		let download = document.querySelector('#Download');
 		download.addEventListener('click', function(e) {
 			e.preventDefault();
 			window.print();
