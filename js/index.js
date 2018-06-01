@@ -10,7 +10,7 @@
 		} else if(document.readyState === 'complete') {
 		}
 	}
-	
+
 	function domContentLoaded() {
 		window.addEventListener('scroll', myFunction);
 		upToTop.addEventListener('click', function(e) {
@@ -31,6 +31,12 @@
 				}
 			}
 		}
+
+		let download = document.querySelector('.download');
+		download.addEventListener('click', function(e) {
+			e.preventDefault();
+			window.print();
+		});
 	}
 
 	function hasClass(element, cls) {
