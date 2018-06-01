@@ -199,6 +199,10 @@ h2 {
 	bottom: 20px;
 }
 
+.upToTop.hide {
+	display: none;
+}
+
 @media (max-width: 768px) {
 	body {
 		font-size: 10px;
