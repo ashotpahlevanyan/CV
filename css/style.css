@@ -120,7 +120,7 @@ h2 {
 	font-size: 0;
 }
 .work .projects li {
-	font-size: 16px;
+	font-size: 18px;
 	margin-bottom: 0px;
 	display: inline-block;
 	width: 50%;
@@ -148,8 +148,9 @@ h2 {
 }
 
 .downloadContainer .download {
-	padding: 8px 5px;
+	padding: 12px 5px;
 	font-size: 2em;
+	line-height: 1.2;
 	width: 50px;
 	height: 50px;
 	text-align: center;
@@ -233,16 +234,31 @@ h2 {
 		margin-top: 5px;
 		font-size: 1.0em;
 	}
+	.work .projects li {
+		font-size: 16px;
+	}
 	.contacts li label {
 		display: none;
 	}
 	.downloadContainer, .upToTop {
 		right: 15px;
 	}
+	.downloadContainer .download {
+		padding: 9px 5px;
+	}
+	
 	.downloadContainer .download, .up {
 		width: 40px;
 		height: 40px;
+		opacity: 0.7;
 	}
+	.downloadContainer .download:hover,
+	.downloadContainer .download:focus,
+	.up:hover,
+	.up:focus {
+		opacity: 1;
+	}
+
 }
 
 @media print {
