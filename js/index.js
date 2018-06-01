@@ -5,26 +5,33 @@ let wSize;
 let upToTop = document.querySelector('.upToTop');
 
 
+
 document.onreadystatechange = function() {
 	if(document.readyState === 'interactive') {
+		domContentLoaded();
 	} else if(document.readyState === 'complete') {
 	}
 }
 function domContentLoaded() {
-	wSize = window.innerWidth 
-				|| document.documentElement.clientWidth 
-				|| document.body.clientWidth;
+	window.addEventListener('scroll', myFunction);
+
+	function myFunction() {
+		if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+			if(hasClass(upToTop, 'hide')) {
+				upToTop.classList.remove('hide');
+			}
+		} else {
+			if(!hasClass(upToTop, 'hide')) {
+				upToTop.classList.add('hide');
+			}
+		}
+	}
 }
 
-window.scroll(myFunction);
-
- function myFunction() {
-    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-        document.querySelector(".upToTop").className = 'center noPrint upToTop';
-    } else {
-        document.querySelector(".upToTop").className = 'center noPrint upToTop hide';
-    }
+function hasClass(element, cls) {
+	return (' ' + element.className + '').indexOf(' ' + cls + '') > -1;
 }
+
 
 //upToTop.addEventListener('click', runScroll, false);
 
