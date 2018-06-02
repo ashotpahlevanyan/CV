@@ -271,6 +271,10 @@ h2 {
 
 }
 
+li {
+	page-break-inside: avoid;
+}
+
 @media print {
 	body {
 		font-size: 10px;
