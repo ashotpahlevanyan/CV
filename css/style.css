@@ -99,6 +99,7 @@ h2 {
 	margin-top: 10px;
 	font-weight: 600;
 	color: #0b7eb4;
+	text-align: left;
 }
 .work .company {
 	color: #33d20c;
@@ -111,11 +112,19 @@ h2 {
 }
 
 .work .tech, .work span, .work .stack {
-	font-style: italic;
+	font-style: normal;
 	margin: 0;
 	margin-top: 3px;
-	line-height: 1.2;
+	line-height: 1.5;
+
 }
+.years {
+	margin-left: 20px;
+}
+.work {
+	list-style-type: decimal;
+}
+
 .work .stack {
 	display: block;
 }
