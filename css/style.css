@@ -279,15 +279,16 @@ h2 {
 
 .contacts li i {
   width: 30px;
-  color: #2CB40B;
+  color: #0c23d2;
   margin-right: 5px;
   text-align: center;
 }
 
 .contacts li a {
-  color: #33d20c;
+  color: #0c23d2;
   line-height: 1.2;
   text-decoration: none;
+  font-weight: bold;
 }
 
 @media (max-width: 768px) {
@@ -328,7 +329,7 @@ h2 {
   text-align: left;
 }
 .work .company {
-  color: #33d20c;
+  color: #0c23d2;
   display: inline-block;
   font-style: italic;
   text-decoration: none;
@@ -365,7 +366,7 @@ h2 {
 }
 .work .projects li a {
   font-size: 1.0em;
-  color: #2CB40B;
+  color: #0c23d2;
   text-decoration: none;
 }
 
@@ -414,7 +415,7 @@ h2 {
   line-height: 1.2;
   border-radius: 5px;
   border: none;
-  background-color: #33d20c;
+  background-color: #0c23d2;
   text-decoration: none;
   display: inline-block;
 }
