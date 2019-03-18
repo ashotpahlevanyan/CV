@@ -1,0 +1,30 @@
+@import "reset";
+@import "mixins";
+@import "variables";
+@import "fonts";
+@import "body";
+@import "helpers";
+@import "headings";
+@import "avatar";
+@import "contacts";
+@import "work";
+@import "download";
+@import "print";
+
+.objective .para {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.categories li {
+  font-size: 20px;
+  line-height: 1.3;
+
+}
+
+li {
+  page-break-inside: avoid;
+}
+
+
+

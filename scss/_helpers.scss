@@ -1,0 +1,32 @@
+.center {
+  margin: 0 auto;
+  text-align: center;
+}
+.vspace {
+  margin-top: 10px;
+}
+.baselineskip {
+  margin-bottom: 10px;
+}
+.upper {
+  text-transform: uppercase;
+}
+.bigger {
+  font-size: 1.5em;
+}
+
+.right {
+  float: right;
+}
+.left {
+  float: left;
+}
+.pdv {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.clearfix::after {
+  display: block;
+  content: "";
+  clear: both;
+}

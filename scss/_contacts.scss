@@ -1,0 +1,41 @@
+.contacts, .work {
+  padding: 10px 20px;
+}
+.contacts li, .work li {
+  padding: 5px 10px;
+  font-size: 1.5em;
+  display: block;
+}
+
+.contacts li label {
+  font-weight: 700;
+  margin-right: 5px;
+}
+.contacts li i {
+  width: 30px;
+  color: $colorGreenDark;
+  margin-right: 5px;
+  text-align: center;
+}
+
+.contacts li a {
+  color: $colorGreen;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .contacts, .work {
+    padding: 5px;
+  }
+  .contacts li, .work li {
+    padding: 5px;
+  }
+  .contacts li i {
+    width: 20px;
+    margin-right: 3px;
+  }
+  .contacts li label {
+    display: none;
+  }
+}
