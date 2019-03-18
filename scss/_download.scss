@@ -1,0 +1,92 @@
+
+.downloadContainer {
+  position: fixed;
+  right: 20px;
+  bottom: 80px;
+}
+
+.downloadContainer .download {
+  padding: 12px 5px;
+  font-size: 2em;
+  line-height: 1.2;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+
+.download {
+  font-size: 1.5em;
+  padding: 11px 15px;
+  color: $colorWhite;
+  font-weight: 700;
+  line-height: 1.2;
+  border-radius: 5px;
+  border: none;
+  background-color: $colorGreen;
+  text-decoration: none;
+  display: inline-block;
+}
+.download:hover,
+.download:active,
+.download:focus {
+  color: $colorWhite;
+  background-color: $colorGreenDark;
+  text-decoration: none;
+}
+
+.up {
+  font-size: 2.0em;
+  padding: 6px 11px;
+  color: #fff;
+  font-weight: 700;
+  line-height: 1.2;
+  border-radius: 5px;
+  border: none;
+  background-color: $colorBlueLight;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+
+}
+.up:hover,
+.up:active,
+.up:focus {
+  color: $colorWhite;
+  background-color: $colorBlue;
+  text-decoration: none;
+}
+
+.upToTop {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+
+.upToTop.hide {
+  display: none;
+}
+
+
+@media (max-width: 768px) {
+  .downloadContainer, .upToTop {
+    right: 15px;
+  }
+  .downloadContainer .download {
+    padding: 9px 5px;
+  }
+
+  .downloadContainer .download, .up {
+    width: 40px;
+    height: 40px;
+    opacity: 0.7;
+  }
+  .downloadContainer .download:hover,
+  .downloadContainer .download:focus,
+  .up:hover,
+  .up:focus {
+    opacity: 1;
+  }
+}

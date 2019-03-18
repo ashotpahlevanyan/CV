@@ -1,0 +1,23 @@
+body {
+  background-color: #fff;
+  overflow-x: hidden;
+  font-size: 12px;
+}
+* {
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  max-width: 992px;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 5px;
+  position: relative;
+  margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 10px;
+  }
+}
