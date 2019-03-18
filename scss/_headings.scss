@@ -7,6 +7,12 @@ h2 {
   font-weight: 600;
 }
 
+.headline {
+  display: inline-block;
+  &::first-letter {
+    font-size: 1.5em;
+  }
+}
 @media (max-width: 768px) {
   h1 {
     font-size: 1.9em;
