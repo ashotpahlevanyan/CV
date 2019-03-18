@@ -13,7 +13,7 @@
 }
 .contacts li i {
   width: 30px;
-  color: $colorGreenDark;
+  color: $colorGreen; // dark
   margin-right: 5px;
   text-align: center;
 }
@@ -22,6 +22,7 @@
   color: $colorGreen;
   line-height: 1.2;
   text-decoration: none;
+  font-weight: bold;
 }
 
 @media (max-width: 768px) {
