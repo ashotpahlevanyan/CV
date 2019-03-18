@@ -1,0 +1,23 @@
+.objective .para {
+  font-size: 20px;
+  line-height: 1.5;
+  padding: 0 30px;
+}
+
+.categories li {
+  font-size: 20px;
+  line-height: 1.3;
+
+}
+
+@media (max-width: 768px) {
+  .objective .para {
+    font-size: 15px;
+    line-height: 1.2;
+    padding: 0 10px;
+  }
+
+  .categories li {
+    font-size: 16px;
+  }
+}
