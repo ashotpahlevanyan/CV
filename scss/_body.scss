@@ -20,4 +20,13 @@ body {
   body {
     font-size: 10px;
   }
+  .container {
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 479px) {
+  .container {
+    padding: 10px 15px;
+  }
 }

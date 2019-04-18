@@ -1,5 +1,18 @@
 .work {
   list-style-type: decimal;
+  &.trainings {
+    & > li {
+      margin-bottom: 10px;
+    }
+  }
+  &.courses {
+    & > li {
+      margin-bottom: 5px;
+    }
+    .title {
+      margin-top: 0;
+    }
+  }
   & > li {
     margin-bottom: 20px;
   }
@@ -34,7 +47,8 @@
   .tech, span, .stack {
     font-style: normal;
     margin: 3px 0 0;
-    line-height: 1.0;
+    line-height: 1.3;
+    font-size: 20px;
   }
   .stack {
     display: block;
@@ -73,6 +87,17 @@
 
 @media (max-width: 768px) {
   .work {
+    &.trainings {
+      & > li {
+        margin-bottom: 5px;
+      }
+    }
+    &.courses {
+      & > li {
+        margin-bottom: 2px;
+      }
+
+    }
     & > li {
       margin-bottom: 5px;
     }
@@ -85,6 +110,7 @@
     }
     .stack {
       line-height: 1.2;
+      font-size: 16px;
       label {
         font-size: 16px;
       }
