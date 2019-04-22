@@ -16,6 +16,11 @@ body {
   margin-top: 30px;
 }
 
+@media (max-width: 992px) {
+  .container {
+    padding: 10px 30px;
+  }
+}
 @media (max-width: 768px) {
   body {
     font-size: 10px;
