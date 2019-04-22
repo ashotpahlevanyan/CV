@@ -231,13 +231,13 @@ body {
 }
 
 h1 {
-  font-size: 3em;
-}
-
-h2 {
   font-size: 2.5em;
   margin: 10px 0 5px;
   font-weight: 600;
+}
+
+h2 {
+  font-size: 3em;
 }
 
 .headline {
