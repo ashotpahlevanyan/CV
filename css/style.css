@@ -43,7 +43,7 @@ blockquote, q {
 
 blockquote:before, blockquote:after,
 q:before, q:after {
-  content: '';
+  content: "";
   content: none;
 }
 
@@ -176,11 +176,15 @@ body {
   margin-top: 30px;
 }
 
+@media (max-width: 992px) {
+  .container {
+    padding: 10px 30px;
+  }
+}
 @media (max-width: 768px) {
   body {
     font-size: 10px;
   }
-
   .container {
     padding: 10px 20px;
   }
@@ -230,14 +234,18 @@ body {
   clear: both;
 }
 
-h1 {
+h2, .name {
   font-size: 2.5em;
   margin: 10px 0 5px;
   font-weight: 600;
 }
 
-h2 {
+h1, .cv {
   font-size: 3em;
+}
+
+.cv {
+  font-weight: normal;
 }
 
 .headline {
@@ -248,12 +256,11 @@ h2 {
 }
 
 @media (max-width: 768px) {
-  h1 {
-    font-size: 1.9em;
+  h2, .name {
+    font-size: 1.58em;
   }
-
-  h2 {
-    font-size: 1.7em;
+  h1, .cv {
+    font-size: 1.84em;
   }
 }
 .avatar {
@@ -304,16 +311,13 @@ h2 {
   .contacts, .work {
     padding: 5px;
   }
-
   .contacts li, .work li {
     padding: 5px;
   }
-
   .contacts li i {
     width: 20px;
     margin-right: 3px;
   }
-
   .contacts li label {
     display: none;
   }
@@ -384,7 +388,7 @@ h2 {
   font-size: 1.6em;
 }
 .work .projects li a {
-  font-size: 1.0em;
+  font-size: 1em;
   color: #0c23d2;
   text-decoration: none;
 }
@@ -405,7 +409,7 @@ h2 {
   }
   .work .title {
     margin-top: 5px;
-    font-size: 1.0em;
+    font-size: 1em;
   }
   .work .projects li {
     font-size: 16px;
@@ -455,7 +459,7 @@ h2 {
 }
 
 .up {
-  font-size: 2.0em;
+  font-size: 2em;
   padding: 6px 11px;
   color: #fff;
   font-weight: 700;
@@ -493,24 +497,20 @@ h2 {
   .downloadContainer, .upToTop {
     right: 15px;
   }
-
   .downloadContainer .download {
     padding: 9px 5px;
   }
-
   .downloadContainer .download, .up {
     width: 40px;
     height: 40px;
     opacity: 0.7;
   }
-
   .downloadContainer .download:hover,
   .downloadContainer .download:focus,
   .up:hover,
   .up:focus {
     opacity: 1;
   }
-
   .download {
     padding: 11px 10px;
   }
@@ -519,7 +519,6 @@ h2 {
   body {
     font-size: 10px;
   }
-
   .noPrint {
     display: none;
   }
@@ -541,7 +540,6 @@ h2 {
     line-height: 1.2;
     padding: 0 10px;
   }
-
   .categories li {
     font-size: 16px;
   }
