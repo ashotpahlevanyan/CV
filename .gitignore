@@ -1,3 +1,8 @@
 # Created by .ignore support plugin (hsz.mobi)
 .idea
 .sass-cache
+
+# Node / Puppeteer (used only to build the CV PDF)
+node_modules
+package.json
+package-lock.json

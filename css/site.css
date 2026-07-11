@@ -241,8 +241,33 @@ footer.foot a:hover { color: var(--accent); }
 .cv-cols .grp ul { margin: 0; padding-left: 18px; color: var(--ink-soft); font-size: .92rem; }
 @media (max-width: 620px) { .cv-cols { columns: 1; } }
 
+/* --- PDF / print: curated ~2-page executive resume from the same page --- */
 @media print {
-	.nav, .foot, .noprint { display: none !important; }
-	body { background: #fff; color: #000; }
-	.cv-section { border-color: #ddd; }
+	@page { size: A4; margin: 13mm 15mm; }
+	html { scroll-behavior: auto; }
+	.nav, .foot, .noprint, .print-hide { display: none !important; }
+
+	body { background: #fff; color: #1a1a17; font-size: 10.3pt; line-height: 1.4; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+	a { color: inherit; text-decoration: none; }
+	.wrap { max-width: none; padding: 0; }
+
+	.cv-header { padding: 0 0 6px; }
+	.cv-header .eyebrow { font-size: 8pt; margin-bottom: 6px; }
+	.cv-header h1 { font-size: 22pt; margin-bottom: 2px; }
+	.cv-header .sub { font-size: 10pt; color: #4a4a44; margin-bottom: 0; }
+
+	.cv-section { padding: 9px 0 5px; border-color: #e4e4dd; }
+	.cv-section > h2 { font-size: 12.5pt; margin-bottom: 7px; color: #b4532a; break-after: avoid; }
+
+	.cv-item { grid-template-columns: 122px 1fr; gap: 14px; padding: 4px 0; break-inside: avoid; }
+	.cv-item .date { font-size: 8.4pt; color: #6a6a62; }
+	.cv-item h3 { font-size: 10.3pt; margin-bottom: 2px; }
+	.cv-item h3 .company { color: #b4532a; }
+	.cv-item .meta { font-size: 9pt; color: #333; margin: 1px 0; }
+	.cv-item ul.list { display: none; }          /* drop long project lists from the PDF */
+
+	.cv-cols { columns: 2; column-gap: 32px; }
+	.cv-cols .grp { margin-bottom: 12px; }
+	.cv-cols .grp label { color: #1a1a17; }
+	.cv-cols .grp ul { font-size: 9pt; }
 }

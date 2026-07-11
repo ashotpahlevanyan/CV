@@ -1,0 +1,62 @@
+name: Build CV PDF
+
+# Rebuilds print/AshotPahlevanyanCV.pdf from the /cv page.
+#  • Runs automatically whenever the CV page or its styles change.
+#  • Or run it on demand: Actions tab → "Build CV PDF" → "Run workflow" (one click).
+# The generated PDF is committed back so the Download link is always current.
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - 'cv/**'
+      - 'css/site.css'
+      - 'scripts/generate-pdf.mjs'
+      - '.github/workflows/build-cv-pdf.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-cv-pdf
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install Puppeteer (bundled Chromium)
+        run: npm install puppeteer@23
+
+      - name: Serve the site
+        run: |
+          python3 -m http.server 8000 >/tmp/serve.log 2>&1 &
+          for i in $(seq 1 20); do
+            curl -sf http://localhost:8000/cv/ >/dev/null && break
+            sleep 0.5
+          done
+
+      - name: Render CV → PDF
+        env:
+          CV_URL: http://localhost:8000/cv/
+          CV_OUT: print/AshotPahlevanyanCV.pdf
+        run: node scripts/generate-pdf.mjs
+
+      - name: Commit the PDF if it changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add print/AshotPahlevanyanCV.pdf
+          if git diff --cached --quiet; then
+            echo "PDF unchanged — nothing to commit."
+          else
+            git commit -m "chore: rebuild CV PDF [skip ci]"
+            git push
+          fi
