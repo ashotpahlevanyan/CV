@@ -168,7 +168,7 @@ section.block { padding: 56px 0; border-top: 1px solid var(--line); }
 .about-grid p:last-child { margin-bottom: 0; }
 .about-side { display: flex; flex-direction: column; gap: 18px; }
 .about-photo {
-	width: 100%; aspect-ratio: 3 / 2; object-fit: cover; object-position: 50% 34%;
+	width: 100%; aspect-ratio: 16 / 9; object-fit: cover; object-position: 42% 50%;
 	border-radius: 14px; border: 1px solid var(--line); box-shadow: var(--shadow);
 }
 .stats { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
