@@ -166,6 +166,11 @@ section.block { padding: 56px 0; border-top: 1px solid var(--line); }
 @media (max-width: 720px) { .about-grid { grid-template-columns: 1fr; gap: 30px; } }
 .about-grid p { color: var(--ink-soft); font-size: 1.02rem; margin: 0 0 16px; }
 .about-grid p:last-child { margin-bottom: 0; }
+.about-side { display: flex; flex-direction: column; gap: 18px; }
+.about-photo {
+	width: 100%; aspect-ratio: 3 / 2; object-fit: cover; object-position: 50% 34%;
+	border-radius: 14px; border: 1px solid var(--line); box-shadow: var(--shadow);
+}
 .stats { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
 .stat { border: 1px solid var(--line); border-radius: var(--radius); padding: 18px 20px; background: var(--paper-2); }
 .stat .n { font-family: var(--font-serif); font-size: 1.9rem; font-weight: 600; color: var(--accent); line-height: 1; }
