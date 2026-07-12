@@ -107,7 +107,7 @@ img { max-width: 100%; display: block; }
 .hero .lede { font-size: 1.06rem; color: var(--ink-soft); max-width: 46ch; margin: 0 0 30px; }
 .hero .avatar {
 	width: 300px; max-width: 100%; aspect-ratio: 4 / 5; height: auto;
-	border-radius: 20px; object-fit: cover; object-position: 50% 30%;
+	border-radius: 20px; object-fit: cover; object-position: 50% 12%;
 	box-shadow: var(--shadow); border: 1px solid var(--line); justify-self: end;
 }
 @media (max-width: 720px) {
