@@ -8,10 +8,11 @@
 	--paper-2:      #f3f3ef;
 	--ink:          #14140f;
 	--ink-soft:     #4a4a44;
-	--ink-faint:    #7a7a72;
+	--ink-faint:    #6b6b64;
 	--line:         #e4e4dd;
 	--card:         #ffffff;
 	--accent:       #b4532a;   /* warm clay — restrained single accent */
+	--accent-strong:#a54a24;   /* darker clay for small text on tinted bg (AA contrast) */
 	--accent-soft:  #d98a63;
 	--accent-tint:  #f5ece7;
 	--shadow:       0 1px 2px rgba(20,20,15,.04), 0 8px 30px rgba(20,20,15,.06);
@@ -31,6 +32,7 @@
 		--line:        #26262a;
 		--card:        #17171a;
 		--accent:      #e08a5f;
+		--accent-strong:#e08a5f;   /* light clay already high-contrast on dark tint */
 		--accent-soft: #b4532a;
 		--accent-tint: #241a14;
 		--shadow:      0 1px 2px rgba(0,0,0,.3), 0 12px 40px rgba(0,0,0,.35);
@@ -40,13 +42,13 @@
 /* explicit theme override wins in both directions */
 :root[data-theme="light"] {
 	--paper:#fbfbf9; --paper-2:#f3f3ef; --ink:#14140f; --ink-soft:#4a4a44;
-	--ink-faint:#7a7a72; --line:#e4e4dd; --card:#fff; --accent:#b4532a;
-	--accent-soft:#d98a63; --accent-tint:#f5ece7;
+	--ink-faint:#6b6b64; --line:#e4e4dd; --card:#fff; --accent:#b4532a;
+	--accent-strong:#a54a24; --accent-soft:#d98a63; --accent-tint:#f5ece7;
 }
 :root[data-theme="dark"] {
 	--paper:#101012; --paper-2:#17171a; --ink:#f0efe9; --ink-soft:#b8b7b0;
 	--ink-faint:#85847d; --line:#26262a; --card:#17171a; --accent:#e08a5f;
-	--accent-soft:#b4532a; --accent-tint:#241a14;
+	--accent-strong:#e08a5f; --accent-soft:#b4532a; --accent-tint:#241a14;
 }
 
 * { box-sizing: border-box; }
@@ -108,15 +110,17 @@ img { max-width: 100%; display: block; }
 .hero .roles { font-size: 1.12rem; color: var(--ink-soft); margin: 0 0 22px; font-weight: 500; }
 .hero .roles .dot { color: var(--accent-soft); margin: 0 8px; }
 .hero .lede { font-size: 1.06rem; color: var(--ink-soft); max-width: 46ch; margin: 0 0 30px; }
+.hero picture { display: block; justify-self: end; }
 .hero .avatar {
 	width: 300px; max-width: 100%; aspect-ratio: 4 / 5; height: auto;
 	border-radius: 20px; object-fit: cover; object-position: 50% 12%;
-	box-shadow: var(--shadow); border: 1px solid var(--line); justify-self: end;
+	box-shadow: var(--shadow); border: 1px solid var(--line);
 }
 @media (max-width: 720px) {
 	.hero { padding: 56px 0 32px; }
 	.hero-grid { grid-template-columns: 1fr; gap: 28px; }
-	.hero .avatar { width: 220px; border-radius: 18px; order: -1; justify-self: start; }
+	.hero picture { order: -1; justify-self: start; }
+	.hero .avatar { width: 220px; border-radius: 18px; }
 }
 
 /* ---- buttons ------------------------------------------------------------ */
@@ -154,7 +158,7 @@ section.block { padding: 56px 0; border-top: 1px solid var(--line); }
 .venture:hover { transform: translateY(-3px); border-color: var(--accent-soft); }
 .venture .role {
 	align-self: flex-start; font-size: .72rem; font-weight: 600; letter-spacing: .12em;
-	text-transform: uppercase; color: var(--accent);
+	text-transform: uppercase; color: var(--accent-strong);
 	background: var(--accent-tint); padding: 5px 11px; border-radius: 999px;
 }
 .venture h3 { font-family: var(--font-serif); font-size: 1.5rem; font-weight: 600; margin: 0; letter-spacing: -.01em; }
@@ -193,7 +197,7 @@ section.block { padding: 56px 0; border-top: 1px solid var(--line); }
 .skills { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
 @media (max-width: 720px) { .skills { grid-template-columns: 1fr; } }
 .skillcard { border: 1px solid var(--line); border-radius: var(--radius); padding: 22px 24px; background: var(--card); }
-.skillcard h4 { margin: 0 0 12px; font-size: .82rem; text-transform: uppercase; letter-spacing: .1em; color: var(--ink-faint); }
+.skillcard h3 { margin: 0 0 12px; font-size: .82rem; font-weight: 600; text-transform: uppercase; letter-spacing: .1em; color: var(--ink-faint); }
 .chips { display: flex; flex-wrap: wrap; gap: 8px; }
 .chip { font-size: .84rem; color: var(--ink-soft); background: var(--paper-2); border: 1px solid var(--line); padding: 5px 11px; border-radius: 999px; }
 
