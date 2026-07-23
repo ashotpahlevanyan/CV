@@ -2,6 +2,9 @@
 .idea
 .sass-cache
 
+# macOS
+.DS_Store
+
 # Node / Puppeteer (used only to build the CV PDF)
 node_modules
 package.json
