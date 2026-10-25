@@ -150,11 +150,12 @@ section.block { padding: 56px 0; border-top: 1px solid var(--line); }
 .section-head a.aside:hover { color: var(--accent); }
 
 /* ---- ventures ----------------------------------------------------------- */
-.ventures { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; }
+.ventures { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
+@media (max-width: 960px) { .ventures { grid-template-columns: 1fr 1fr; } }
 @media (max-width: 720px) { .ventures { grid-template-columns: 1fr; } }
 .venture {
 	position: relative; background: var(--card); border: 1px solid var(--line);
-	border-radius: var(--radius); padding: 30px 28px; box-shadow: var(--shadow);
+	border-radius: var(--radius); padding: 26px 24px; box-shadow: var(--shadow);
 	display: flex; flex-direction: column; gap: 14px;
 	transition: transform .18s, border-color .18s;
 }
@@ -164,9 +165,9 @@ section.block { padding: 56px 0; border-top: 1px solid var(--line); }
 	text-transform: uppercase; color: var(--accent-strong);
 	background: var(--accent-tint); padding: 5px 11px; border-radius: 999px;
 }
-.venture h3 { font-family: var(--font-serif); font-size: 1.5rem; font-weight: 600; margin: 0; letter-spacing: -.01em; }
+.venture h3 { font-family: var(--font-serif); font-size: 1.35rem; font-weight: 600; margin: 0; letter-spacing: -.01em; }
 .venture .tagline { font-style: italic; color: var(--ink-soft); margin: -6px 0 0; }
-.venture p { margin: 0; color: var(--ink-soft); font-size: .98rem; }
+.venture p { margin: 0; color: var(--ink-soft); font-size: .95rem; }
 .venture .go { margin-top: auto; padding-top: 8px; color: var(--accent); font-weight: 500; font-size: .92rem; display: inline-flex; align-items: center; gap: 6px; }
 .venture .go .arw { transition: transform .18s; }
 .venture:hover .go .arw { transform: translateX(4px); }
