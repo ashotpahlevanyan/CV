@@ -171,6 +171,9 @@ section.block { padding: 56px 0; border-top: 1px solid var(--line); }
 .venture .go { margin-top: auto; padding-top: 8px; color: var(--accent); font-weight: 500; font-size: .92rem; display: inline-flex; align-items: center; gap: 6px; }
 .venture .go .arw { transition: transform .18s; }
 .venture:hover .go .arw { transform: translateX(4px); }
+.exploring { margin: 22px 0 0; color: var(--ink-faint); font-size: .92rem; }
+.exploring a { color: var(--accent); font-weight: 500; }
+.exploring a:hover { text-decoration: underline; }
 
 /* ---- about + stats ------------------------------------------------------ */
 .about-grid { display: grid; grid-template-columns: 1.5fr 1fr; gap: 44px; align-items: start; }
