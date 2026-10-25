@@ -28,6 +28,8 @@ try {
 		format: 'A4',
 		printBackground: true,
 		preferCSSPageSize: true, // honour @page size/margins in css/site.css
+		tagged: true,            // tagged (accessible) PDF: real reading order for ATS and screen readers
+		outline: false,
 	});
 	console.log(`✓ Wrote ${OUT}`);
 } finally {
