@@ -6,10 +6,22 @@
     "email": "ashotpahlevanyan@gmail.com",
     "url": "https://ashot.pahlevanyan.org",
     "summary": "Staff Software Engineer with 15 years shipping web, desktop and mobile products for US and European companies, currently at WillowTree (TELUS Digital) on enterprise React, TypeScript and Adobe Experience Manager platforms. Led engineering teams of up to 9 at WillowTree and as Software Development Manager at Cattlesoft (web, mobile and desktop), and built and run Mekena, a fleet-management SaaS, end to end: product, React and Node.js codebase, infrastructure, go-to-market. PhD in Mathematics; strong on algorithms, system design, data modelling and clear written communication. Open to Staff Engineer, Tech Lead and Engineering Manager roles; available full time (40 hours a week), remote.",
-    "location": { "city": "Yerevan", "countryCode": "AM", "region": "Yerevan" },
+    "location": {
+      "city": "Yerevan",
+      "countryCode": "AM",
+      "region": "Yerevan"
+    },
     "profiles": [
-      { "network": "LinkedIn", "username": "ashotpahlevanyan", "url": "https://www.linkedin.com/in/ashotpahlevanyan/" },
-      { "network": "GitHub", "username": "ashotpahlevanyan", "url": "https://github.com/ashotpahlevanyan" }
+      {
+        "network": "LinkedIn",
+        "username": "ashotpahlevanyan",
+        "url": "https://www.linkedin.com/in/ashotpahlevanyan/"
+      },
+      {
+        "network": "GitHub",
+        "username": "ashotpahlevanyan",
+        "url": "https://github.com/ashotpahlevanyan"
+      }
     ]
   },
   "work": [
@@ -64,51 +76,195 @@
     {
       "name": "Mekena",
       "description": "Fleet-management SaaS for taxi dispatch companies: driver payments and debts, vehicle documents, maintenance, per-vehicle P&L. Built end to end in React, TypeScript, Node.js and PostgreSQL.",
-      "roles": ["Founder"],
+      "roles": [
+        "Founder"
+      ],
       "startDate": "2026",
       "url": "https://app.mekena.org",
-      "keywords": ["SaaS", "React", "TypeScript", "Node.js", "PostgreSQL"]
+      "keywords": [
+        "SaaS",
+        "React",
+        "TypeScript",
+        "Node.js",
+        "PostgreSQL"
+      ]
     },
     {
       "name": "VParking",
       "description": "Automated vertical-lift parking that fits up to 3× the cars on one footprint; seismic-ready, EV charging optional. Product, engineering and go-to-market.",
-      "roles": ["Co-founder"],
+      "roles": [
+        "Co-founder"
+      ],
       "startDate": "2026",
       "url": "https://vparking.space"
     },
     {
       "name": "Anjoy",
       "description": "Small-group yoga and meditation retreats at curated locations. Product, brand and operations.",
-      "roles": ["Co-founder"],
+      "roles": [
+        "Co-founder"
+      ],
       "startDate": "2026",
       "url": "https://anjoy.space"
     }
   ],
   "education": [
-    { "institution": "Yerevan State University", "url": "http://www.ysu.am", "area": "Mathematics (group theory)", "studyType": "PhD", "endDate": "2011" },
-    { "institution": "Yerevan State University", "url": "http://www.ysu.am", "area": "Mathematics", "studyType": "MSc (with honours)", "endDate": "2008" }
+    {
+      "institution": "Yerevan State University",
+      "url": "http://www.ysu.am",
+      "area": "Mathematics (group theory)",
+      "studyType": "PhD",
+      "endDate": "2011"
+    },
+    {
+      "institution": "Yerevan State University",
+      "url": "http://www.ysu.am",
+      "area": "Mathematics",
+      "studyType": "MSc (with honours)",
+      "endDate": "2008"
+    },
+    {
+      "institution": "Uppsala University, Department of Pharmaceutical Biosciences",
+      "url": "https://www.uu.se",
+      "area": "Bioinformatics research (R, Python, statistics)",
+      "studyType": "Research position",
+      "startDate": "2014-11",
+      "endDate": "2015-12"
+    }
   ],
   "publications": [
-    { "name": "The Fibonacci automorphism of free Burnside groups", "publisher": "RAIRO – Theoretical Informatics and Applications, 45:3", "releaseDate": "2011", "url": "https://www.rairo-ita.org/articles/ita/abs/2011/03/ita100012/ita100012.html" },
-    { "name": "On normal automorphisms of n-periodic products of finite cyclic groups", "publisher": "International Journal of Group Theory, 2:3", "releaseDate": "2013", "url": "http://www.theoryofgroups.ir/?_action=articleInfo&article=2348" },
-    { "name": "On automorphisms and embeddings of free periodic groups", "publisher": "Journal of Contemporary Mathematical Analysis, 46:2", "releaseDate": "2011", "url": "http://link.springer.com/article/10.3103/S1068362311020063" }
+    {
+      "name": "The Fibonacci automorphism of free Burnside groups",
+      "publisher": "RAIRO – Theoretical Informatics and Applications, 45:3",
+      "releaseDate": "2011",
+      "url": "https://www.rairo-ita.org/articles/ita/abs/2011/03/ita100012/ita100012.html"
+    },
+    {
+      "name": "On normal automorphisms of n-periodic products of finite cyclic groups",
+      "publisher": "International Journal of Group Theory, 2:3",
+      "releaseDate": "2013",
+      "url": "http://www.theoryofgroups.ir/?_action=articleInfo&article=2348"
+    },
+    {
+      "name": "On automorphisms and embeddings of free periodic groups",
+      "publisher": "Journal of Contemporary Mathematical Analysis, 46:2",
+      "releaseDate": "2011",
+      "url": "http://link.springer.com/article/10.3103/S1068362311020063"
+    }
   ],
   "awards": [
-    { "title": "1st prize, IBM Bluemix programming competition", "date": "2015", "awarder": "Uppstart Tech Meetup, Uppsala" },
-    { "title": "Best Young Researcher", "date": "2008", "awarder": "Vardanank foundation" }
+    {
+      "title": "1st prize, IBM Bluemix programming competition",
+      "date": "2015",
+      "awarder": "Uppstart Tech Meetup, Uppsala"
+    },
+    {
+      "title": "Best Young Researcher",
+      "date": "2008",
+      "awarder": "Vardanank foundation"
+    }
   ],
   "skills": [
-    { "name": "Core (daily, 8+ years)", "level": "Expert", "keywords": ["TypeScript", "JavaScript", "React", "Redux", "Node.js", "Express", "HTML", "CSS", "REST API design", "GraphQL", "PostgreSQL", "MySQL", "MongoDB"] },
-    { "name": "Front-end platform", "keywords": ["Component architecture", "Styled Components", "Material UI", "Responsive UI", "Accessibility", "Webpack", "Astro", "Web performance (Lighthouse)"] },
-    { "name": "Enterprise platforms", "keywords": ["Adobe Experience Manager", "Multi-tenant SaaS architecture", "Hardware and device integration"] },
-    { "name": "Quality and delivery", "keywords": ["TDD", "BDD", "Jest", "Git", "GitHub Actions", "CI/CD", "Docker", "Puppeteer", "Technical documentation", "Jira"] },
-    { "name": "Leadership and product", "keywords": ["Engineering management (teams of up to 9)", "Technical leadership", "Code review", "Architecture", "Hiring", "Mentoring", "Product ownership", "Roadmapping", "Go-to-market", "Stakeholder communication", "Agile", "Scrum"] },
-    { "name": "Data and algorithms", "keywords": ["Algorithms", "Data structures", "Python", "R", "Statistics"] }
+    {
+      "name": "Core (daily, 8+ years)",
+      "level": "Expert",
+      "keywords": [
+        "TypeScript",
+        "JavaScript",
+        "React",
+        "Redux",
+        "Node.js",
+        "Express",
+        "HTML",
+        "CSS",
+        "REST API design",
+        "GraphQL",
+        "PostgreSQL",
+        "MySQL",
+        "MongoDB"
+      ]
+    },
+    {
+      "name": "Front-end platform",
+      "keywords": [
+        "Component architecture",
+        "Styled Components",
+        "Material UI",
+        "Responsive UI",
+        "Accessibility",
+        "Webpack",
+        "Astro",
+        "Web performance (Lighthouse)"
+      ]
+    },
+    {
+      "name": "Enterprise platforms",
+      "keywords": [
+        "Adobe Experience Manager",
+        "Multi-tenant SaaS architecture",
+        "Hardware and device integration"
+      ]
+    },
+    {
+      "name": "Quality and delivery",
+      "keywords": [
+        "TDD",
+        "BDD",
+        "Jest",
+        "Git",
+        "GitHub Actions",
+        "CI/CD",
+        "Docker",
+        "Puppeteer",
+        "Technical documentation",
+        "Jira"
+      ]
+    },
+    {
+      "name": "Leadership and product",
+      "keywords": [
+        "Engineering management (teams of up to 9)",
+        "Technical leadership",
+        "Code review",
+        "Architecture",
+        "Hiring",
+        "Mentoring",
+        "Product ownership",
+        "Roadmapping",
+        "Go-to-market",
+        "Stakeholder communication",
+        "Agile",
+        "Scrum"
+      ]
+    },
+    {
+      "name": "Data and algorithms",
+      "keywords": [
+        "Algorithms",
+        "Data structures",
+        "Python",
+        "R",
+        "Statistics"
+      ]
+    }
   ],
   "languages": [
-    { "language": "English", "fluency": "Fluent (daily working language since 2013)" },
-    { "language": "Russian", "fluency": "Fluent" },
-    { "language": "Armenian", "fluency": "Native" }
+    {
+      "language": "English",
+      "fluency": "Fluent (daily working language since 2013)"
+    },
+    {
+      "language": "Russian",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Armenian",
+      "fluency": "Native"
+    }
   ],
-  "meta": { "canonical": "https://ashot.pahlevanyan.org/cv/resume.json", "version": "2026.10", "lastModified": "2026-10-25" }
+  "meta": {
+    "canonical": "https://ashot.pahlevanyan.org/cv/resume.json",
+    "version": "2026.10",
+    "lastModified": "2026-10-25"
+  }
 }
