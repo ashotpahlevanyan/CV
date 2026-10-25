@@ -89,7 +89,7 @@
     { "institution": "Yerevan State University", "url": "http://www.ysu.am", "area": "Mathematics", "studyType": "MSc (with honours)", "endDate": "2008" }
   ],
   "publications": [
-    { "name": "The Fibonacci automorphism of free Burnside groups", "publisher": "RAIRO – Theoretical Informatics and Applications, 45:3", "releaseDate": "2011", "url": "http://journals.cambridge.org/action/displayAbstract?fromPage=online&aid=8381269" },
+    { "name": "The Fibonacci automorphism of free Burnside groups", "publisher": "RAIRO – Theoretical Informatics and Applications, 45:3", "releaseDate": "2011", "url": "https://www.rairo-ita.org/articles/ita/abs/2011/03/ita100012/ita100012.html" },
     { "name": "On normal automorphisms of n-periodic products of finite cyclic groups", "publisher": "International Journal of Group Theory, 2:3", "releaseDate": "2013", "url": "http://www.theoryofgroups.ir/?_action=articleInfo&article=2348" },
     { "name": "On automorphisms and embeddings of free periodic groups", "publisher": "Journal of Contemporary Mathematical Analysis, 46:2", "releaseDate": "2011", "url": "http://link.springer.com/article/10.3103/S1068362311020063" }
   ],
