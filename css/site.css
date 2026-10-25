@@ -172,7 +172,7 @@ section.block { padding: 56px 0; border-top: 1px solid var(--line); }
 .venture .go .arw { transition: transform .18s; }
 .venture:hover .go .arw { transform: translateX(4px); }
 .exploring { margin: 22px 0 0; color: var(--ink-faint); font-size: .92rem; }
-.exploring a { color: var(--accent); font-weight: 500; }
+.exploring a, .exploring strong { color: var(--accent); font-weight: 500; }
 .exploring a:hover { text-decoration: underline; }
 
 /* ---- about + stats ------------------------------------------------------ */
