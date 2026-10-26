@@ -177,11 +177,9 @@
         "Express",
         "HTML",
         "CSS",
+        "Accessibility (WCAG)",
         "REST API design",
-        "GraphQL",
-        "PostgreSQL",
-        "MySQL",
-        "MongoDB"
+        "GraphQL"
       ]
     },
     {
@@ -191,7 +189,6 @@
         "Styled Components",
         "Material UI",
         "Responsive UI",
-        "Accessibility",
         "Webpack",
         "Astro",
         "Web performance (Lighthouse)"
@@ -240,6 +237,9 @@
     {
       "name": "Data and algorithms",
       "keywords": [
+        "PostgreSQL",
+        "MySQL",
+        "MongoDB",
         "Algorithms",
         "Data structures",
         "Python",
