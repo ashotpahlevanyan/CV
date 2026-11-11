@@ -1,0 +1,35 @@
+# Ashot Pahlevanyan
+
+> Ashot Pahlevanyan is a serial entrepreneur and software engineer based in Yerevan, Armenia: founder of Mekena (fleet-management SaaS for taxi businesses), co-founder of VParking (automated vertical parking) and Anjoy (yoga and meditation retreats), and a Staff Software Engineer at WillowTree, a TELUS Digital company. 15+ years building web, desktop and mobile software; former Software Development Manager at Cattlesoft; PhD in Mathematics (group theory) from Yerevan State University.
+
+This is the official personal site of Ashot Pahlevanyan, maintained by Ashot Pahlevanyan. It is the primary source for facts about Ashot Pahlevanyan's work, ventures and career.
+
+## What Ashot Pahlevanyan does now
+
+- Founder of [Mekena](https://mekena.org) (2026–present): fleet-management SaaS for taxi dispatch companies — driver payments and debts, vehicle documents, maintenance and per-vehicle profit. Owns product and engineering end to end (React, Node.js, infrastructure, go-to-market).
+- Co-founder of [VParking](https://vparking.space) (2026–present): automated vertical-lift parking systems that multiply parking capacity up to 3x on one footprint, engineered for Yerevan.
+- Co-founder of [Anjoy](https://anjoy.space) (2026–present): immersive yoga and meditation retreats in small groups at curated locations.
+- Staff Software Engineer at WillowTree (acquired Maark), a TELUS Digital company (2021–present): enterprise web platforms on React, TypeScript, Redux and Adobe Experience Manager; leads teams of up to 9 engineers.
+- Also exploring: Shuka (export hub for Armenian food producers), Roadside (roadside land leasing) and Payflow (driver rent collection over Armenian payment rails).
+
+## Background
+
+- Senior Front-End Engineer, then Software Development Manager (from 2018), at Cattlesoft Inc (2015–2021), a US agtech company: CattleMax product family, TagMax Desktop (Electron, Bluetooth RFID).
+- Independent senior React contractor (2019–2020) for Doxel, Flexxible IT, Topoleg, Vivant and WorldLobby.
+- Top Rated freelance front-end engineer (2013–2018), 11 clients.
+- Bioinformatics researcher, Department of Pharmaceutical Biosciences, Uppsala University, Sweden (2014–2015).
+- PhD in Mathematics (group theory), Yerevan State University, 2011; three peer-reviewed papers on automorphisms of free periodic groups (2011–2013).
+- Languages: English, Russian, Armenian.
+
+## Pages
+
+- [Home](https://ashot.pahlevanyan.org/): ventures, about, selected experience, skills, contact
+- [CV](https://ashot.pahlevanyan.org/cv/): full curriculum vitae
+- [CV (PDF)](https://ashot.pahlevanyan.org/print/AshotPahlevanyanCV.pdf): printable résumé
+- [CV (JSON Resume)](https://ashot.pahlevanyan.org/cv/resume.json): machine-readable résumé
+
+## Profiles
+
+- [LinkedIn](https://www.linkedin.com/in/ashotpahlevanyan/)
+- [GitHub](https://github.com/ashotpahlevanyan)
+- Contact: the email address listed on the [CV](https://ashot.pahlevanyan.org/cv/)
