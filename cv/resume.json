@@ -75,7 +75,7 @@
   "projects": [
     {
       "name": "Mekena",
-      "description": "Fleet-management SaaS for taxi dispatch companies: driver payments and debts, vehicle documents, maintenance, per-vehicle P&L. Built end to end in React, TypeScript, Node.js and PostgreSQL.",
+      "description": "Fleet-management SaaS for taxi dispatch companies: driver payments and debts, vehicle documents, maintenance, per-vehicle P&L. Took it from idea to production end to end: product design, React and TypeScript front end, Node.js and PostgreSQL back end, infrastructure, trilingual landing site. In a free pilot with a taxi fleet.",
       "roles": [
         "Founder"
       ],
@@ -91,7 +91,7 @@
     },
     {
       "name": "VParking",
-      "description": "Automated vertical-lift parking that fits up to 3× the cars on one footprint; seismic-ready, EV charging optional. Product, engineering and go-to-market.",
+      "description": "Automated vertical-lift parking that fits up to 3× the cars on one footprint; seismic-ready, EV charging optional. Product, engineering and go-to-market. In talks with site owners and partners for a first installation.",
       "roles": [
         "Co-founder"
       ],
@@ -100,7 +100,7 @@
     },
     {
       "name": "Anjoy",
-      "description": "Small-group yoga and meditation retreats at curated locations. Product, brand and operations.",
+      "description": "Small-group yoga and meditation retreats at curated locations. Joined the established business as co-founder in 2026 to build its product, brand and online presence.",
       "roles": [
         "Co-founder"
       ],
