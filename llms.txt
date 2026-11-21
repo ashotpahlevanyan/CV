@@ -27,6 +27,7 @@ This is the official personal site of Ashot Pahlevanyan, maintained by Ashot Pah
 - [CV](https://ashot.pahlevanyan.org/cv/): full curriculum vitae
 - [CV (PDF)](https://ashot.pahlevanyan.org/print/AshotPahlevanyanCV.pdf): printable résumé
 - [CV (JSON Resume)](https://ashot.pahlevanyan.org/cv/resume.json): machine-readable résumé
+- [Ventures and projects](https://pahlevanyan.org/): every venture and project Ashot Pahlevanyan has built, with stage and links
 
 ## Profiles
 
