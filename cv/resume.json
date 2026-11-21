@@ -5,7 +5,7 @@
     "label": "Staff Software Engineer & Engineering Lead — React · TypeScript · Node.js",
     "email": "ashotpahlevanyan@gmail.com",
     "url": "https://ashot.pahlevanyan.org",
-    "summary": "Staff Software Engineer with 15 years shipping web, desktop and mobile products for US and European companies, currently at WillowTree (TELUS Digital) on enterprise React, TypeScript and Adobe Experience Manager platforms. Led engineering teams of up to 9 at WillowTree and as Software Development Manager at Cattlesoft (web, mobile and desktop), and built and run Mekena, a fleet-management SaaS, end to end: product, React and Node.js codebase, infrastructure, go-to-market. PhD in Mathematics; strong on algorithms, system design, data modelling and clear written communication. Open to Staff Engineer, Tech Lead and Engineering Manager roles; available full time (40 hours a week), remote.",
+    "summary": "Staff Software Engineer with 15 years shipping web products for US and European companies, currently at WillowTree (TELUS Digital) on enterprise React, TypeScript and Adobe Experience Manager platforms. Led engineering teams of up to 9 at WillowTree and as Software Development Manager at Cattlesoft, and built and run Mekena, a fleet-management SaaS, end to end: product, React and Node.js codebase, infrastructure, go-to-market. PhD in Mathematics; strong on algorithms, system design, data modelling and clear written communication. Open to Staff Engineer, Tech Lead and Engineering Manager roles; available full time (40 hours a week), remote.",
     "location": {
       "city": "Yerevan",
       "countryCode": "AM",
@@ -46,7 +46,7 @@
       "summary": "Remote for a US agtech company. CattleMax, TagMax Desktop, CattleTags, CattleScales. Engineer 2015–2016, manager from June 2018.",
       "highlights": [
         "Promoted to Software Development Manager (June 2018); led a team of up to 5 across web, mobile and desktop development for the CattleMax herd-management product family.",
-        "Built TagMax Desktop in Electron, React and Node.js with Bluetooth RFID tag-reader integration for macOS and Windows.",
+        "Built TagMax Desktop with React and Node.js, integrating Bluetooth RFID tag readers on macOS and Windows.",
         "Rebuilt the CattleMax web UI and shipped the CattleTags and CattleScales front ends; earlier owned the hardest parts of the CattleMax UI and UX."
       ]
     },
@@ -57,7 +57,7 @@
       "endDate": "2020-09",
       "highlights": [
         "Delivered five fixed-scope engagements for US and European startups in React, TypeScript, Redux and GraphQL, each handed over with documentation.",
-        "Doxel: built the DxUploader desktop application (Electron, React, Redux). Flexxible IT: front end of the Apps2Digital platform. Vivant: Composer application and Live Session components."
+        "Doxel: built the DxUploader application (React, Redux). Flexxible IT: front end of the Apps2Digital platform. Vivant: Composer application and Live Session components."
       ]
     },
     {

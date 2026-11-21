@@ -218,6 +218,7 @@ section.block { padding: 56px 0; border-top: 1px solid var(--line); }
 	border: 1px solid var(--line); border-radius: 999px; color: var(--ink-soft);
 	font-size: .92rem; transition: color .18s, border-color .18s, transform .15s;
 }
+.socials a svg { flex: none; }
 .socials a:hover { color: var(--accent); border-color: var(--accent-soft); transform: translateY(-1px); }
 
 footer.foot { border-top: 1px solid var(--line); padding: 30px 0; color: var(--ink-faint); font-size: .85rem; }
