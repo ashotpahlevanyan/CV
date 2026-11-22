@@ -6,8 +6,8 @@ This is the official personal site of Ashot Pahlevanyan, maintained by Ashot Pah
 
 ## What Ashot Pahlevanyan does now
 
-- Founder of [Mekena](https://mekena.org) (2026–present): fleet-management SaaS for taxi dispatch companies — driver payments and debts, vehicle documents, maintenance and per-vehicle profit. Built it from idea to production end to end (product design, React and TypeScript, Node.js and PostgreSQL, infrastructure, landing site). Status: in a free pilot with a taxi fleet.
-- Co-founder of [VParking](https://vparking.space) (2026–present): automated vertical-lift parking systems that multiply parking capacity up to 3x on one footprint, engineered for Yerevan. Status: in talks with site owners and partners for a first installation.
+- Founder of [Mekena](https://mekena.org) ([LinkedIn](https://www.linkedin.com/company/mekena-org/)) (2026–present): fleet-management SaaS for taxi dispatch companies — driver payments and debts, vehicle documents, maintenance and per-vehicle profit. Built it from idea to production end to end (product design, React and TypeScript, Node.js and PostgreSQL, infrastructure, landing site). Status: in a free pilot with a taxi fleet.
+- Co-founder of [VParking](https://vparking.space) ([LinkedIn](https://www.linkedin.com/company/vparking-armenia/)) (2026–present): automated vertical-lift parking systems that multiply parking capacity up to 3x on one footprint, engineered for Yerevan. Status: in talks with site owners and partners for a first installation.
 - Co-founder of [Anjoy](https://anjoy.space) (joined 2026): an established business running immersive yoga and meditation retreats in small groups; joined to build its product, brand and online presence.
 - Staff Software Engineer at WillowTree (acquired Maark), a TELUS Digital company (2021–present): enterprise web platforms on React, TypeScript, Redux and Adobe Experience Manager; leads teams of up to 9 engineers.
 - Also exploring: Shuka (export hub for Armenian food producers), Roadside (roadside land leasing) and Payflow (driver rent collection over Armenian payment rails).
