@@ -12,6 +12,13 @@ This is the official personal site of Ashot Pahlevanyan, maintained by Ashot Pah
 - Staff Software Engineer at WillowTree (acquired Maark), a TELUS Digital company (2021–present): enterprise web platforms on React, TypeScript, Redux and Adobe Experience Manager; leads teams of up to 9 engineers.
 - Also exploring: Shuka (export hub for Armenian food producers), Roadside (roadside land leasing) and Payflow (driver rent collection over Armenian payment rails).
 
+## Side projects
+
+- [AI Learning Hub](https://learn.pahlevanyan.org/): free, structured study paths for AI certifications (Anthropic, Google, OpenAI, AWS, Azure, NVIDIA, Databricks) with lessons, flashcards, scenario practice and timed tests. Designed and built end to end in TypeScript.
+- [Burnside Theorem Atlas](https://burnside.pahlevanyan.org/): interactive map of theorems and open problems around the Burnside problem in group theory, with proofs drawn as paths; grew out of the PhD research.
+- [AI Radar](https://airadar.pahlevanyan.org/): daily digest of AI skills, repositories, models, papers and news.
+- All ventures and projects: [pahlevanyan.org](https://pahlevanyan.org/)
+
 ## Background
 
 - Senior Front-End Engineer, then Software Development Manager (from 2018), at Cattlesoft Inc (2015–2021), a US agtech company: CattleMax product family, TagMax Desktop (Bluetooth RFID).

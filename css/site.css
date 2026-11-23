@@ -303,6 +303,20 @@ footer.foot .foot-bio a { text-decoration: underline; text-decoration-color: var
 @media (max-width: 620px) { .cv-cols { columns: 1; } }
 
 /* --- PDF / print: the same content as the web page, laid out for two A4 pages --- */
+/* Side projects (home) and Selected projects (CV) */
+.side-projects { margin-top: 40px; }
+.sp-title { font-size: .82rem; font-weight: 600; text-transform: uppercase; letter-spacing: .1em; color: var(--ink-faint); margin: 0 0 14px; }
+.projects { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+@media (max-width: 720px) { .projects { grid-template-columns: 1fr; } }
+.project { border: 1px solid var(--line); border-radius: 12px; padding: 16px 18px; background: var(--paper-2); display: flex; flex-direction: column; gap: 6px; transition: border-color .18s; }
+.project:hover { border-color: var(--accent-soft); }
+.project h3 { margin: 0; font-size: 1rem; font-weight: 600; }
+.project p { margin: 0; color: var(--ink-soft); font-size: .88rem; }
+.project .go { margin-top: auto; padding-top: 4px; color: var(--accent); font-size: .85rem; font-weight: 500; }
+.plist { margin: 0; padding-left: 18px; color: var(--ink-soft); font-size: .94rem; }
+.plist li { margin: 4px 0; }
+.plist a { color: var(--accent); text-decoration: underline; text-decoration-color: var(--accent-soft); text-underline-offset: 2px; text-decoration-thickness: 1px; }
+
 @media print {
 	@page { size: A4; margin: 14mm 16mm; }
 	html { scroll-behavior: auto; }
@@ -352,4 +366,9 @@ footer.foot .foot-bio a { text-decoration: underline; text-decoration-color: var
 	.cv-more .cv-cols .grp a { color: #b4532a; }
 
 	.updated { font-size: 7.8pt; color: #6a6a62; margin-top: 10px; }
+
+	.plist { font-size: 9pt; color: #333; padding-left: 14px; }
+	.plist li { margin: 1px 0; }
+	.plist a { color: #b4532a; text-decoration: none; }
+	.cv-projects { break-inside: avoid; }
 }

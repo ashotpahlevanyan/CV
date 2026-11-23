@@ -106,6 +106,33 @@
       ],
       "startDate": "2026",
       "url": "https://anjoy.space"
+    },
+    {
+      "name": "AI Learning Hub",
+      "description": "Free, structured study paths for AI certifications (Anthropic, Google, OpenAI, AWS, Azure, NVIDIA, Databricks) with lessons, flashcards, scenario practice and timed tests. Designed and built end to end.",
+      "roles": [
+        "Creator"
+      ],
+      "startDate": "2026",
+      "url": "https://learn.pahlevanyan.org/",
+      "keywords": [
+        "TypeScript",
+        "AI",
+        "Education"
+      ]
+    },
+    {
+      "name": "Burnside Theorem Atlas",
+      "description": "Interactive map of theorems and open problems around the Burnside problem in group theory, with proofs drawn as paths. Grew out of PhD research.",
+      "roles": [
+        "Creator"
+      ],
+      "startDate": "2026",
+      "url": "https://burnside.pahlevanyan.org/",
+      "keywords": [
+        "Group theory",
+        "Visualization"
+      ]
     }
   ],
   "education": [
